@@ -2,8 +2,9 @@
 const mongoose = require("mongoose");
 const Question = require("./models/Question");
 
-const MONGO_URI = "mongodb+srv://hemadiksitha:HV@hema.arbgjdb.mongodb.net/?retryWrites=true&w=majority&tls=true";
+const MONGO_URI = "mongodb+srv://hemadiksitha:HV@hema.arbgjdb.mongodb.net/coding_questions?retryWrites=true&w=majority&tls=true";
 
+//const MONGO_URI = "mongodb+srv://hemadiksitha:HV@hema.arbgjdb.mongodb.net/?retryWrites=true&w=majority&tls=true";
 //const MONGO_URI = "mongodb+srv://hemadiksitha:HV@hema.arbgjdb.mongodb.net/retryWrites=true&w=majority&tls=true";
 //const MONGO_URI = "mongodb+srv://annazzmariya2023:Cy6ITVFn0imOYgxh@cluster0.slenzdx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 //mongodb+srv://hemadiksitha:HV@hema.arbgjdb.mongodb.net/
